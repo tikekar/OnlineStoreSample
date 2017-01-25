@@ -22,7 +22,8 @@
     }
     
     // hard coded url for items json
-    NSString *itemsUrl = @"https://omniprojects.github.io/omni-ios-sample/api/items.json";
+    //NSString *itemsUrl = @"https://github.com/tikekar/OnlineStoreSample/blob/master/api/items.json";
+    NSString *itemsUrl = @"https://raw.githubusercontent.com/tikekar/OnlineStoreSample/master/api/items.json";
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         

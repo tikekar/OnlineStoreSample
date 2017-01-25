@@ -17,7 +17,7 @@ static OSUser *sharedInstance = nil;
     
     if(sharedInstance == nil) {
         
-        NSString *loginUrl = @"https://omniprojects.github.io/omni-ios-sample/api/login.json";
+        NSString *loginUrl = @"https://raw.githubusercontent.com/tikekar/OnlineStoreSample/master/api/login.json";
         
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             
