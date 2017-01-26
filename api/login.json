@@ -1,7 +1,7 @@
 {
 	"error": null,
 	"content": {
-		"email": "test",
+		"email": "test@test.com",
 		"first_name": "Gauri",
 		"last_name": "Tikekar",
 		"avatar": "https://omni.imgix.net/avatars/default-avatar.png"
