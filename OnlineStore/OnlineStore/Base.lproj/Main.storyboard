@@ -528,14 +528,14 @@
                                     <action selector="onSignInButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bSS-o4-YY2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Store!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyE-zE-eIb">
-                                <rect key="frame" x="86" y="137" width="203.5" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Shop!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyE-zE-eIb">
+                                <rect key="frame" x="86" y="137" width="204" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We store your items, so you can live lighter." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LdR-Xa-5OZ">
-                                <rect key="frame" x="69" y="213" width="237" height="77"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shop in Style" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LdR-Xa-5OZ">
+                                <rect key="frame" x="69" y="178" width="237" height="77"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="237" id="S3i-aa-RuH"/>
                                     <constraint firstAttribute="height" constant="77" id="wbp-mp-TnA"/>
@@ -553,7 +553,7 @@
                             <constraint firstItem="40f-eQ-yjV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="CEF-Vk-BjN"/>
                             <constraint firstAttribute="bottom" secondItem="S7G-ht-w0r" secondAttribute="bottom" id="X0E-yb-yf7"/>
                             <constraint firstItem="LdR-Xa-5OZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bC9-Vm-sWf"/>
-                            <constraint firstItem="LdR-Xa-5OZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="213" id="btW-77-w8n"/>
+                            <constraint firstItem="LdR-Xa-5OZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="178" id="btW-77-w8n"/>
                             <constraint firstItem="gyE-zE-eIb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c8S-Ip-UMb"/>
                             <constraint firstAttribute="trailing" secondItem="S7G-ht-w0r" secondAttribute="trailing" id="flO-IT-bTG"/>
                             <constraint firstItem="S7G-ht-w0r" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lW4-2M-hWp"/>
@@ -640,8 +640,8 @@
         <image name="userProfile.png" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tJr-lg-DWS"/>
-        <segue reference="HZH-Bm-0C6"/>
         <segue reference="DZs-X1-WaO"/>
+        <segue reference="Wqg-7u-qXf"/>
+        <segue reference="HZH-Bm-0C6"/>
     </inferredMetricsTieBreakers>
 </document>
