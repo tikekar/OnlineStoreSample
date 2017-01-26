@@ -7,4 +7,4 @@ It features following -<br>
 4. Search feature on the shop page is implemented to do a simple textual search.<br>
 5. Different UI elements used like Collection view, static tables, container views, page controller view, tab bar, navigation bar etc.<br>
 Steps to run the app-<br>
-On the login view, enter username "test" and password empty.<br>
+On the login view, enter Email as "test@test.com" and password can be left empty.<br>
