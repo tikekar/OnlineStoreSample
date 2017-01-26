@@ -12,7 +12,6 @@
 
 @interface OSMainStoreViewController ()
 @property (weak, nonatomic) IBOutlet UISegmentedControl *itemStatusSegmentedButton;
-@property (weak, nonatomic) IBOutlet UIButton *redPlusButton;
 @property (weak, nonatomic) IBOutlet UIView *searchView;
 @property (weak, nonatomic) IBOutlet UITextField *searchTextField;
 
@@ -23,9 +22,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBar.hidden = NO;
-    [self.redPlusButton.layer setShadowOffset:CGSizeMake(5, 5)];
-    [self.redPlusButton.layer setShadowColor:[[UIColor blackColor] CGColor]];
-    [self.redPlusButton.layer setShadowOpacity:0.5];
     self.itemStatusSegmentedButton.selectedSegmentIndex = 0;
     [self showChildViewControllerAt:0 searchText:nil];
 }
